@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/gray"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            style="@style/BodyTextAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Name: Mg Mg" />
+
+        <TextView
+            android:id="@+id/tvRemainingPrice"
+            style="@style/BodyTextAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Remaining Price: 3,000 MMK" />
+
+        <TextView
+            android:id="@+id/tvPhNum"
+            style="@style/BodyTextAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Phone Number: 09 123 456 789" />
+
+        <TextView
+            android:id="@+id/tvNrc"
+            style="@style/BodyTextAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="NRC: 1/OKM(N)123456" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            style="@style/BodyTextAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            tools:text="Status: Daily" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_remaining_loan_list"
+        android:icon="@drawable/ic_remaining_loan_list"
+        android:title="Remaining"/>
+    <item
+        android:id="@+id/fragment_completed_loan_list"
+        android:icon="@drawable/ic_completed_loan_list"
+        android:title="Completed"/>
+</menu>

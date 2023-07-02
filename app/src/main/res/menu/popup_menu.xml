@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/editLoan"
+        android:title="Edit Loan"/>
+    <item
+        android:id="@+id/deleteLoan"
+        android:title="Delete Loan"/>
+    <item
+        android:id="@+id/settleLoan"
+        android:title="Settle Loan"/>
+</menu>
